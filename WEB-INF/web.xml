@@ -1,0 +1,80 @@
+<web-app>
+    <!-- 5a -->
+
+    <servlet>
+        <servlet-name>
+            Hello
+        </servlet-name>
+        <servlet-class>
+            p1
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            Hello
+        </servlet-name>
+        <url-pattern>
+            /HelloWorld
+        </url-pattern>
+    </servlet-mapping>
+
+
+   
+
+    <!-- Ex 5b -->
+
+    <servlet>
+        <servlet-name>
+            2ndpag
+        </servlet-name>
+        <servlet-class>
+            p4
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            2ndpag
+        </servlet-name>
+        <url-pattern>
+            /2ndpage
+        </url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>
+            3rdpag
+        </servlet-name>
+        <servlet-class>
+            p5
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            3rdpag
+        </servlet-name>
+        <url-pattern>
+            /3rdpage
+        </url-pattern>
+    </servlet-mapping>
+
+    <!-- Ex5-c -->
+
+    <servlet>
+        <servlet-name>
+            4thpag
+        </servlet-name>
+        <servlet-class>
+            p6
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            4thpag
+        </servlet-name>
+        <url-pattern>
+            /4thpage
+        </url-pattern>
+    </servlet-mapping>
+
+   
